@@ -1,10 +1,12 @@
-div#home{
+div[data-role=page]{
 	font-family: 'Anaheim', sans-serif;
+	background-image:url(images/stripe-background.gif);
 }
 header {
-	background-color:#5E87B0;
-	color:white;
+	background-color:#999;
+	color:#E8E58B;
 	text-shadow:none;
+	border-bottom:2px solid #5E4E6A;
 }
 
 header h1{
@@ -21,7 +23,6 @@ header h2{
 	width:35%;
 	text-align: right;
 }
-
-footer {
+footer{
 	text-align:center;
 }
